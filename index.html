@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            font-size: 14px;
+            font-family:'Norse-Bold';
+            display: flex;
+        }
+        .wapper-one {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 40%;
+            height: 100vh;
+            background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
+            background-size: cover;
+            background-position: center;
+            padding:15% 0px;
+        }
+        .logo-wrap {
+            display: flex;
+            height: 130px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.428);
+        }
+        .logo-wrap img {
+            width: 80px;
+        }
+        .logo-wrap h1 {
+            color: white;
+            font-size: 6em;
+            padding-top: 15px;
+        }
+        .wapper-two {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9fafb;
+            font-family: Helvetica, sans-serif;
+        }
+        .text-wrap {
+            padding-top: 10em;
+            margin-left: 4em;
+            padding-bottom: 3em;
+        }
+        .text-wrap p {
+            font-size: 22px;
+            line-height: 1.1em;
+            font-weight: 500;
+            width: 64%;
+        }
+        .from-wrap {
+            background-color: white;
+            padding-left: 60px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.202);
+        }
+        .from-wrap h1 {
+            margin-top: 30px;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .from-wrap from {
+            display: flex;
+            flex-direction: row;
+            width: 49%;
+            flex-flow: wrap;
+        }
+        .from-wrap from div {
+            display: flex;
+            flex-direction: column;
+        }
+        .from-wrap from div label {
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+        .from-wrap from div input {
+            padding: 5px 40px;
+            width: 70%;
+            border: 1px solid #e7e9ec;
+            margin-bottom: 14px;
+        }
+        .bottom-wrap {
+            padding-top: 30px;
+            padding-left: 5%;
+        }
+        .bottom-wrap button {
+            background-color: #596d48;
+            padding: 13px 45px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            color: white;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+        }
+        .bottom-wrap p {
+            font-size: 15px;
+            margin-top: 2em;
+        } 
+        .bottom-wrap a {
+            color: #596d48;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wapper-one">
+        <div class="logo-wrap">
+            <img src="img/odin-lined.png" />
+            <h1>ODIN</h1>
+        </div>
+    </div>
+    <div class="wapper-two">
+        <div class="text-wrap">
+            <p>This is not a real online service! 
+                You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.<br><br>
+
+                <span>You know you want to.</span>
+            </p>
+        </div>
+        <div class="from-wrap">
+            <h1>Let's do this!</h1>
+            <from>
+                <div>
+                    <label>FIRST NAME</label>
+                    <input type="text" placeholder="Thor" />
+                </div>
+                <div>
+                    <label>LAST NAME</label>
+                    <input type="text" placeholder="Odinson" />
+                </div>
+                <div>
+                    <label>EMAIL</label>
+                    <input type="text" placeholder="" />
+                </div>
+                <div>
+                    <label>PHONE NUMBER</label>
+                    <input type="text" placeholder="" />
+                </div>
+                <div>
+                    <label>PASSWORD</label>
+                    <input type="text" placeholder="" />
+                </div>
+                <div>
+                    <label>CONFIRM PASSWORD</label>
+                    <input type="text" placeholder="" />
+                </div>
+            </from>
+        </div>
+        <div class="bottom-wrap">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
